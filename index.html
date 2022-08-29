@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>proyecto html</title>
+        <link rel="shortcut icon" href="favicon.ico">
+    </head> 
+    <body>
+
+       <header>
+            <img src="./assets/images/codoacodo.png" alt="Logo de codo a codo" loading="lazy">
+            <h2>Conf. Bs. As.</h2>
+                <nav>
+                    <a href="#">La conferencia</a>
+                    <a href="./pages/los_oradores.html">Los oradores</a>
+                    <a href="./pages/lugaryfecha.html">El lugar y fecha</a>
+                    <a href="./pages/contacto.html">Conviértete en orador</a>
+                    <a href="./pages/comprartickets.html">Comprar tickets</a>
+                </nav>
+       </header>
+       
+       <main>
+             <section>
+                <img src="./assets/images/ba1.jpg"alt="Imagen de Buenos Aires Palacio de Aguas Argentinas" srcset="" loading="lazy">
+                <h1>Conferencia Bs.As.</h1>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consequatur eum similique perferendis, ad praesentium iusto excepturi expedita. Ullam consectetur accusantium at soluta fugiat voluptas mollitia praesentium optio, eos, sequi asperiores?</p>
+                <a href="./pages/contacto.html">Quiero ser orador</a>
+                <a href="./pages/comprartickets.html">Comprar tickets</a>
+
+            </section>
+       </main>
+
+       <section>
+
+        <div >
+            <img src="./assets/images/steve.jpg" alt="imagen de Steve Jobs" loading="lazy" width="300">
+            
+            <h3>Steve Jobs</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro asperiores quia inventore necessitatibus voluptas. <br> Eligendi vero enim iusto ex rerum, reiciendis totam voluptates sequi beatae,<br> excepturi dolorum, velit veritatis consequuntur?</p>
+            
+            <a href="">Leer más</a>
+            <a href="">Noticias</a>  
+        </div>
+        <br>
+        <br>
+        <div >
+            <img src="./assets/images/bill.jpg" alt="imagen de Bill Gates" loading="lazy" width="300"> 
+            <h3>Bill Gates</h3>
+            <p> <span style="color: red;"  >Lorem ipsum, </span>  dolor sit amet consectetur adipisicing elit. Porro asperiores quia inventore necessitatibus voluptas. <br> Eligendi vero enim iusto ex rerum, reiciendis totam voluptates sequi beatae,<br> excepturi dolorum, velit veritatis consequuntur?</p>
+            <a href="">Leer más</a>
+        </div>
+        <br>
+        <br>
+        <div >
+            <img src="./assets/images/ada.jpeg" alt="imagen de Ada Lovelace" loading="lazy" width="300">
+            <h3>Ada Lovelace</h3>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro asperiores quia inventore necessitatibus voluptas. <br> Eligendi vero enim iusto ex rerum, reiciendis totam voluptates sequi beatae,<br> excepturi dolorum, velit veritatis consequuntur?</p>
+            <a href="">Leer más</a>   
+        </div>
+
+    </section>
+    <section>
+        <img src="./assets/images/honolulu.jpg" alt="Imagen de Honolulu">
+        <div>
+            <h3>Bs. As. Octubre</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex exercitationem quaerat, nostrum facere voluptas architecto eligendi obcaecati accusamus, ipsum sequi a maxime qui porro fugit cumque. Iste architecto perspiciatis quasi.</p>
+            <a href="">Conocé más</a>
+            
+
+        </div>
+    </section>
+        <br><br>
+    
+
+    <section>
+    <!--Clase de miercoles, formulario (Ver enlasces internos)-->
+    <table>
+        <thead>
+            <tr>
+                <th>Orador</th>
+                <th>Día</th>
+                <th>Horario</th>
+            
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Steve Jobs</td>
+                <td>Lun.y Mie.</td>
+                <td>18:30hs a 20:00hs</td>
+             </tr>
+             <tr>
+                 <td>Bill Gates</td>
+                 <td>Mar. y jue.</td>
+                 <td>18:30hs a 20:00hs</td>
+            </tr>
+             <tr>
+                 <td>Ada Lovelace</td>
+                 <td>Lun.y Mie.</td>
+                 <td>10:00hs a 11:30hs</td>
+             </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="3"> <a href="">Sacar entradas</a> </td>
+            </tr>
+        </tfoot>
+           
+    </table>
+    </section>
+    <br><br>
+    <section>
+        <form action="">
+            <div>
+                <input type="text" placeholder="Nombre" autofocus>
+                <input type="text" placeholder="Apellido">
+            </div>
+            <div>
+                <label for="">Email</label>
+                <input type="email" name="" id="">
+            </div>
+            <div>
+                <label for="">Ingrese Contraseña</label>
+                <input type="password" required>
+            </div>
+
+           <div>
+            <textarea name="" id="" cols="36" rows="10" placeholder="Sobre qué quieres hablar"></textarea>
+           </div>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. </p>
+            <div>
+                <p>Indique su provincia</p>
+                <br>
+                <select >
+                    <option value="">Salta</option>
+                    <option value="">Entre Rios</option>
+                    <option value="">Santa Fe</option>
+                    <option value="">Rio Negro</option>
+                    <option value="">Cordoba</option>
+                </select>
+            </div>
+            <div>
+                <p>Términos y condiciones</p>
+                <input type="checkbox" name="Términos">
+            </div>
+            <br><br>
+            <div>
+                <input type="submit" value="Enviar formulario">
+                <input type="reset" value="Limpiar" >
+            
+            </div>
+        </form>
+  
+    </section>
+    <br>
+
+    <aside>
+        <h2>Acá va la propaganda</h2>
+        <img src="./assets/images/hawaii2.jpg" alt="propaganda">
+    </aside>
+
+    <article>
+        <header>el header de la noticia</header>
+        <h1>este es el título principal de la noticia</h1>
+        <footer>este es el footer de la noticia</footer>
+
+    </article>
+
+    <footer>
+        <a href="">Preguntas frecuentes</a>
+        <a href="">Contáctanos</a>
+        <a href="">Prensa</a>
+        <a href="">Conferencias</a>
+        <a href="">Términos y condiciones</a>
+        <a href="">Privacidad</a>
+        <a href="">Estudiantes</a>
+
+    </footer>
+
+    </body>
+ </html>
